@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Excel/Office temp files
+~$*.xlsx
+~$*.docx
+*.tmp
+
+# Python (if any analysis scripts are added later)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
