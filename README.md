@@ -38,14 +38,17 @@ cybersecurity-governance-risk-assessment/
 │   ├── 02-asset-inventory.md              # Systems, data, and applications in scope
 │   ├── 03-nist-csf-gap-assessment.md      # Current vs. desired state, all 6 CSF Functions
 │   └── 04-methodology.md                  # Assessment approach, scope, and references
+│   └── 05-vendor-risk-assessment.md       # Third party vendor risk assessment 
 ├── data/
 │   ├── risk-register.xlsx                 # Prioritized risk register with scoring
 │   └── poam.xlsx                          # Plan of Action & Milestones
+│   └── vendor-risk-assessment.xlsx        # SIG Lite-aligned, 7 vendors, 8
 ├── templates/
 │   └── risk-register-template.xlsx        # Reusable blank risk register template
 └── screenshots/
     ├── risk-register-overview.png
     └── poam-overview.png
+    └── vendor-risk-assessment-summary.png
 ```
 
 ## Preview
@@ -71,6 +74,10 @@ cybersecurity-governance-risk-assessment/
    translated into scored, prioritized risks.
 5. Open the **[POA&M](data/poam.xlsx)** to see the remediation roadmap tied to
    each risk, with owners, target dates, and status tracking.
+6. Open the **[Vendor Risk Assessment](data/vendor-risk-assessment.xlsx)** to see
+   how the High-severity vendor risk gap (RISK-03) was remediated
+   through a SIG Lite-aligned questionnaire covering 7 vendors across 8
+   security domains, with scored findings and risk ratings per vendor.
 
 ## Framework & Standards Referenced
 
